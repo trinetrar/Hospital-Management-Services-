@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECD9D9"
+    tools:context=".doc_info">
+    <LinearLayout
+        android:layout_width="60sp"
+        android:orientation="horizontal"
+        android:layout_height="60sp">
+
+        <ImageView
+            android:id="@+id/navbutton"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_margin="10sp"
+            android:src="@drawable/baseline_menu_24" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:layout_margin="25sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:padding="10sp"
+        android:text="Doctor's Appontment"/>
+
+    <EditText
+        android:id="@+id/editTextPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textColorHint="@color/black"
+        android:hint="Patient Name" />
+
+    <EditText
+        android:id="@+id/editTextDoctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:textColorHint="@color/black"
+        android:hint="Doctor Name" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:textColorHint="@color/black"
+        android:hint="Date" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColorHint="@color/black"
+        android:layout_margin="10sp"
+        android:layout_height="wrap_content"
+        android:hint="Time" />
+
+    <Button
+        android:id="@+id/buttonBookAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="Book Appointment" />
+
+
+</LinearLayout>

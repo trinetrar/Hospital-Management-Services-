@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#59DBEA"
+    android:orientation="vertical"
+    tools:context=".Loginpage">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8sp"
+        android:src="@drawable/eopdback" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:gravity="center"
+        android:padding="15sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:textColorHint="@color/black"
+        android:hint="Patient ID" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter password"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="20sp"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:inputType="numberPassword" />
+
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/Regesterbtn"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Here" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="60dp"
+        android:gravity="center"
+        android:text="FORGOT PASSWORD"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Eopdbtn"
+        android:layout_width="360sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:padding="10sp"
+        android:text="EOPD"
+        android:textSize="30sp" />
+
+</LinearLayout>

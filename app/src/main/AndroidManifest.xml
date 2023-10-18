@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hosp"
+        tools:targetApi="31">
+        <activity
+            android:name=".froget_page"
+            android:exported="false" />
+        <activity
+            android:name=".navigation"
+            android:exported="false" />
+        <activity
+            android:name=".paythanks"
+            android:exported="false" />
+        <activity
+            android:name=".medicine_page"
+            android:exported="false" />
+        <activity
+            android:name=".search_nav"
+            android:exported="false"
+            android:label="@string/title_activity_search_nav"
+            android:theme="@style/Theme.Hosp" />
+        <activity
+            android:name=".Payment_pag"
+            android:exported="false"
+            android:label="@string/title_activity_payment_pag"
+            android:theme="@style/Theme.Hosp" />
+        <activity
+            android:name=".Payment_page"
+            android:exported="false" />
+        <activity
+            android:name=".eopd_pg"
+            android:exported="false" />
+        <activity
+            android:name=".regestartion_pg"
+            android:exported="false" />
+        <activity
+            android:name=".doc_info"
+            android:exported="false" />
+        <activity
+            android:name=".Loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
